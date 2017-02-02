@@ -42,7 +42,7 @@
 
                 <TextView
                     android:textColor="#800100"
-                    android:text="We are pleased to inform you that the Department of Computer Engineering of P.E.S’s Modern College of Engineering , Shivajinagar, Pune, has arranged a two day Technical fest under M-pulse ‘CodeFiesta 2k17’, on 10th and 11th February 2017.CodeFiesta 2k16, the event started with an intention to provide students with an effective platform to face competitive activities. Code Fiesta has 3 events which demands coding, problem solving and critical thinking skills. All the events have been planned and organized by students and coordinators keeping the interest and need of the technical students into consideration."
+                    android:text="We are pleased to inform you that the Department of Computer Engineering of P.E.S’s Modern College of Engineering , Shivajinagar, Pune, has arranged a two day Technical fest under M-pulse ‘CodeFiesta 2k17’, on 10th and 11th February 2017.CodeFiesta 2k17, the event started with an intention to provide students with an effective platform to face competitive activities. Code Fiesta has 3 events which demands coding, problem solving and critical thinking skills. All the events have been planned and organized by students and coordinators keeping the interest and need of the technical students into consideration."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_above="@+id/linearLayout2"
@@ -51,7 +51,7 @@
                     android:layout_marginLeft="31dp"
                     android:layout_marginStart="31dp"
                     android:id="@+id/textView3"
-                    android:textSize="22sp"/>
+                    android:textSize="18sp"/>
             </LinearLayout>
         </ScrollView>
     </LinearLayout>

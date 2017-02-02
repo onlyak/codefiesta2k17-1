@@ -12,43 +12,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.pesmoce.foss.codefiesta.MainActivity">
 
-    <TextView
-        android:onClick="play"
-        android:id="@+id/college_x"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Our College"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="#3F51B5"
-        android:layout_marginTop="190dp"
-        android:layout_marginLeft="120dp"
-        />
-
-    <TextView
-        android:id="@+id/about_x"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="About us"
-        android:textSize="20sp"
-        android:textColor="#3F51B5"
-        android:textStyle="bold"
-        android:layout_marginTop="250dp"
-        android:layout_alignLeft="@+id/college_x"
-        android:layout_alignStart="@+id/college_x" />
-
-    <TextView
-        android:id="@+id/events_x"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Events"
-        android:textSize="20sp"
-        android:textColor="#3F51B5"
-        android:textStyle="bold"
-        android:layout_marginTop="310dp"
-        android:layout_alignLeft="@+id/sponsors_x"
-        android:layout_alignStart="@+id/sponsors_x" />
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -93,6 +56,18 @@
         android:layout_alignParentEnd="true" />
 
     <TextView
+        android:id="@+id/about_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Event"
+        android:textSize="20sp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/college_x"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
 
         android:id="@+id/sponsors_x"
         android:layout_width="wrap_content"
@@ -101,10 +76,34 @@
         android:textSize="20sp"
         android:textColor="#3F51B5"
         android:textStyle="bold"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="32dp"
         android:layout_below="@+id/events_x"
-        android:layout_alignLeft="@+id/college_x"
-        android:layout_alignStart="@+id/college_x" />
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/events_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Details"
+        android:textSize="20sp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/about_x"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:onClick="play"
+        android:id="@+id/college_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About College"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:layout_marginTop="191dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/contact_x"
@@ -114,10 +113,9 @@
         android:textSize="20sp"
         android:textColor="#3F51B5"
         android:textStyle="bold"
-        android:layout_marginTop="31dp"
-        android:layout_below="@+id/sponsors_x"
-        android:layout_alignLeft="@+id/sponsors_x"
-        android:layout_alignStart="@+id/sponsors_x" />
+        android:layout_marginBottom="21dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>
