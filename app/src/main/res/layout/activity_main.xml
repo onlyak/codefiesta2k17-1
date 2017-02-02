@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="@drawable/jb1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pesmoce.foss.codefiesta.MainActivity">
+
+    <TextView
+        android:onClick="play"
+        android:id="@+id/college_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our College"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="120dp"
+        />
+
+    <TextView
+        android:id="@+id/about_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About us"
+        android:textSize="20sp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:layout_alignLeft="@+id/college_x"
+        android:layout_alignStart="@+id/college_x" />
+
+    <TextView
+        android:id="@+id/events_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Events"
+        android:textSize="20sp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:layout_marginTop="310dp"
+        android:layout_alignLeft="@+id/sponsors_x"
+        android:layout_alignStart="@+id/sponsors_x" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fplogo"
+        android:id="@+id/imageView4"
+        android:layout_marginBottom="34dp"
+        android:layout_alignBottom="@+id/codefiesta_x"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/codefiesta_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Code Fiesta 2k17"
+        android:textColor="#263238"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="24dp"
+        android:layout_alignBottom="@+id/codespeak"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/codespeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let your code speak..."
+        android:textColor="#263238"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_alignBottom="@+id/college_x"
+        android:layout_alignLeft="@+id/codefiesta_x"
+        android:layout_alignStart="@+id/codefiesta_x"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+
+        android:id="@+id/sponsors_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sponsors"
+        android:textSize="20sp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/events_x"
+        android:layout_alignLeft="@+id/college_x"
+        android:layout_alignStart="@+id/college_x" />
+
+    <TextView
+        android:id="@+id/contact_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="20sp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/sponsors_x"
+        android:layout_alignLeft="@+id/sponsors_x"
+        android:layout_alignStart="@+id/sponsors_x" />
+
+
+</RelativeLayout>

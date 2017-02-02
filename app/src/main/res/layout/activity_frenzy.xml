@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_maze_coders"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blank"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pesmoce.foss.codefiesta.frenzy">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:text="DATE 10,February,2017\r\n\nEVENT DESCRIPTION\r\n\nObjective:As named FRENZY SEARCH, the event is mainly based on searching and to improve your knowledge. Participants will be given number of questions to answer, those questions have to be answered appropriately and correctly. Participants have freedom to use search engine.\r\n\nROUND 1:The round 1 participants will be given a number of questions and these questions have to be answered within the given time limit. Participants have to answer maximum questions within the time.\r\nROUND 2:There is a twist in the round 2, the time will be given to each question separately and the participants have to answer the question within given time.\r\nInstructions and Rules\r\n\nRules\r\nRound 1:\r\n1.) The time limit will be of 20 minutes.\r\n2.) Participants should answer maximum questions within the given time only.\r\n3.) Participants can answer the questions randomly.\r\n\nRound 2:\r\n1.) The time limit will be of 45 seconds per question.\r\n2.) Participants have to answer the question within that time limit.\r\n3.) Once time exceeds the next question will appear and participants cannot go back to the previous question .\r\n\n\nCONTACT EVENT HEAD-Rucha Kelkar[9028069547]\r\n\nPrevious Sponsors\r\n
+"
+                    android:textColor="#000011"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView5" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/matrixlogo"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/imageView" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

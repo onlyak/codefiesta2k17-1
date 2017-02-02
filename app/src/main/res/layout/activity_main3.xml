@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/blank"
+    tools:context="com.pesmoce.foss.codefiesta.Main3Activity">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/mcoelogo"
+        android:id="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="92dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:textColor="#800100"
+                    android:text="Progressive Education Society's Modern College of Engineering was established in the year 1999. The Institute is approved by All India Council of Technical Education (AICTE), New Delhi, Directorate of Technical Education (DTE), and Government of Maharashtra and is permanently affiliated to Savitribai Phule Pune University (SPPU), complying with all the norms and standards of engineering and management education. The Institute is UGC recognized under 2(f) and 12(B) and NAAC accredited and has been awarded the  Best College in the Urban Area  by SPPU. With a great vision and dynamic approach of our Principal, Prof. Dr. (Mrs.) K.R. Joshi the Institute has reached to the new height at national and international level.
+
+Modern College of Engineering, an institute of higher education offers quality programs that integrate academic inputs and professional skills to empower students for developing their personal and career potential. The Institute provides assistance to eligible graduates through training, seminars, workshops and counseling sessions to make them employable. Qualified and experienced faculties strive to attain excellence which is outlined in the mission of the Institute. The faculty members upgrade their knowledge by participating in Faculty Development Programs and presenting papers at various national programs in their field of specialization.
+
+The Institute offers Undergraduate programs in Mechanical Engineering, Electronics and Telecommunication Engineering, Computer Engineering, Electrical Engineering and Information Technology Engineering; Postgraduate programs in Mechanical Engineering (Heat Power), Electrical Engineering(Control System), Electronics and Telecommunication Engineering(Signal Processing)and Computer Engineering(Computer Engineering), Masters in Computer Application (Under Engineering faculty) and Masters in Business Administration.
+The institute has four recognized research centers affiliated to Savitribai Phule Pune University namely Mechanical Engineering, Electrical Engineering, Electronics and Telecommunication Engineering and Management which offer Doctorate in Philosophy (Ph.D.) course.
+The Institute has the state of art infrastructure which includes spacious and well ventilated classrooms, well equipped laboratories, computer centre, language laboratory, audio/video laboratory and Central library. The rooms are well furnished, well lit and air. All the departments in the Institute have Seminar hall which is well equipped to be used for various academic and extracurricular activities. The Institute has the indoor, outdoor sports and gymnasium facility for the students and staff. The Institute has the auditorium with the seating arrangement for more than 500 audiences. Medical facility is provided to staff and students through the health center. The facility of cafeteria for students and staff is available within the campus."
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView6"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <TextView
+        android:textColor="#800100"
+        android:text="Modern College of Engineering"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView4"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2" />
+
+    <TextView
+        android:textColor="#800100"
+        android:text="Progressive Education Society's "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="22sp"
+        android:layout_marginTop="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2" />
+
+</RelativeLayout>

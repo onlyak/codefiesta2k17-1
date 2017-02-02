@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_maze_coders"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blank"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pesmoce.foss.codefiesta.allied">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:text="DATE 	10,February,2017 \n\nEVENT DESCRIPTION \n\nObjective : Explore your compatibility and telepathic thinking with a partner in a Digital World. Have a trustworthy friend\partner? Are you both tech freaks? Can you be partners in crime and code your way to glory? Then this event is for people like you. Show your programming and logical thinking skills in tandem with your partner in a digital environment filled with obstacles. Compete with other teams in a coding race to show as a team you can achieve greatness. Match your witty logic with your partner and code a program quicker than any other in relay and show not all codes are meant to be mind boggling.\n\nROUND 1: \nOne player from each team will be given a problem statement. This player will then draw flowchart of the solution and will pass it to the second player. Second player will not be aware of the problem statement. He\she will have to code according to the flowchart drawn by his\her partner. Each participant will be given a time limit.\n\n
+ROUND 2: \nThis will be similar to the generic allied force coding. Each team will be given a problem statement. One player from each team will write code for half of the time, while another will write the code for half of the time. Each player will be given a time limit.\n\nInstructions and Rules\n1.) The team consists of maximum 2 students.\n2.) The team must report at reporting desk before appearing for competition.\n3.) The team must report at least 15 minutes before the given time.\n4.) The team should bring their respective ID cards for the event.\n5.) Time slots will be given and participants are expected to follow it strictly.\n6.) Communication between participants during the Rounds will not be allowed.\n7.) Use of mobile phones is not allowed and misbehaving and fudging will result into disqualification.\n8.) There should be no words appearing in flow chart which are relevant to the problem or give any hint.\nThe decision of the judges will be final.\n\nCONTACT : EVENT HEAD-Kurus Sethna[9011081302]\n\n\nPrevious Sponsors \n\n
+
+
+"
+                    android:textColor="#000011"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView5" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/csilogo_small"
+                    android:layout_marginLeft="130dp"
+                    android:id="@+id/imageView" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\r\n"/>
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/softx"
+                    android:id="@+id/imageView1" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
