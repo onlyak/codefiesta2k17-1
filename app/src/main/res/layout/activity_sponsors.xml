@@ -45,24 +45,25 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical"
+                android:weightSum="1">
 
                 <ImageView
                     android:layout_width="364dp"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/placeholder"
+                    app:srcCompat="@drawable/riser"
                     android:id="@+id/imageView10" />
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/placeholder"
+                    android:layout_height="197dp"
+                    app:srcCompat="@drawable/mirhae"
                     android:id="@+id/imageView11" />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="139dp"
-                    app:srcCompat="@drawable/placeholder"
+                    app:srcCompat="@drawable/csilogo_small"
                     android:id="@+id/imageView12"
                     android:layout_marginBottom="49dp"
                     android:layout_alignParentBottom="true"

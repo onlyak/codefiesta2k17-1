@@ -13,16 +13,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    MediaPlayer sound;
 
     TextView college,about,events,contact,sponsors,codefiesta;
 
 
-     @Override
-     protected void onDestroy(){
-         super.onDestroy();
-         sound.release();
-     }
 
 
     @Override
@@ -30,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        sound=MediaPlayer.create(this,R.raw.artha);
-        sound.start();
 
 
      college=new TextView(this);

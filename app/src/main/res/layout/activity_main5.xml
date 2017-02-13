@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:text="Head: Arun Pottekat \nContact: 9561102935"
                 android:textSize="20sp"
-
+                android:textIsSelectable="true"
                 android:textStyle="bold"
                 android:textAlignment="center"
                 android:layout_marginTop="26dp"
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:text="Co-Head: Paritosh Medhekar \nContact:  8796439629"
                 android:textSize="20sp"
-
+                android:textIsSelectable="true"
                 android:textStyle="bold"
                 android:textAlignment="center"
                 android:layout_marginTop="27dp"
@@ -64,7 +64,7 @@
                 android:layout_height="wrap_content"
                 android:text="Co-Head: Yash Khanzode \nContact: 9028656806"
                 android:textSize="20sp"
-
+                android:textIsSelectable="true"
                 android:textStyle="bold"
                 android:textAlignment="center"
                 android:layout_marginTop="33dp"
@@ -90,7 +90,7 @@
                 android:layout_height="wrap_content"
                 android:text="Ameya Kale\n7350408882\n\nParitosh M\n8796439629"
                 android:textSize="20sp"
-
+                android:textIsSelectable="true"
                 android:textStyle="bold"
                 android:textAlignment="center"
                 android:layout_marginTop="35dp"

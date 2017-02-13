@@ -35,15 +35,6 @@
 
 
     <ImageButton
-        android:layout_width="200dp"
-        android:layout_height="150dp"
-        app:srcCompat="@drawable/frenzy1"
-        android:id="@+id/frenzy"
-        android:layout_toEndOf="@+id/maze"
-        android:layout_below="@+id/maze"
-        android:layout_toRightOf="@+id/maze" />
-
-    <ImageButton
         android:layout_width="154dp"
         android:layout_height="150dp"
         app:srcCompat="@drawable/code1"
@@ -94,5 +85,16 @@
         android:layout_toEndOf="@+id/allied"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp" />
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/frenzy1"
+        android:id="@+id/frenzy"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/maze"
+        android:layout_toEndOf="@+id/maze"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
 
 </RelativeLayout>

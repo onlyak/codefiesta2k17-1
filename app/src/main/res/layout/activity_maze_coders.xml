@@ -31,8 +31,8 @@
 
                 <TextView
                     android:text="DATE 	10,February,2017\r\n\nEVENT DESCRIPTION :\r\nObjective:You think you are good at handling the Linux file system??? Give it a try!!
-Play hangman, find the hidden clues from linux file system and solve the problems to win.\r\nRounds\r\n\nROUND 1:\r\nThe participants play a Hangman Game to find the hint and clear the first round \r\n\nROUND 2:\r\nClues in the form of files will be hidden in the Linux file system and the files will have to chained to get the final clue to solve the problem.
-\r\n\nROUND 3:\r\nThe riddle will be given in the form of images. The contestant has to solve the given question using the clue and with the programming knowledge. The team which solves the puzzles fastest will win this event.
+Play hangman, find the hidden clues from linux file system and solve the problems to win.\r\nRounds\r\n\nROUND 1:\r\nThe participants play a Hangman Game to find the hint and clear the first round \r\n\nROUND 2:\r\nSolve the riddles using your choice of programming languages . The contestant has to solve the given question using the programming concepts. The team which solves the puzzles fastest will win this event.\r\n\nRound 3: \r\nClues in the form of files will be hidden in the Linux file system and the files will have to chained to get the final clue to solve the problem.
+\r\n\n
 Instructions and Rules\r\n\r\n1.) No use of manual pages.\r\n2.) Use of internet is prohibited.\r\n3.) For any difficulty contact event head or co-head.\r\n4.) All results declared in round 3 will be final and non-disputable.\r\n5.) Participants must have basic knowledge of commands cd, ls, cat etc, and linux file system.\r\n\nCONTACT EVENT HEAD-Ameya Kale[7350408882]\r\n\nPrevious Sponsers: \r\n
 "
                     android:textColor="#000011"
